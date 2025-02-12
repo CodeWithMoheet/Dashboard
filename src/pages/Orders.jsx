@@ -19,7 +19,7 @@ import { Header } from "../components";
 
 function Orders() {
   return (
-    <div className="m-2 md:m-10 p-2 md:p-10 bg-white rounded-3xl">
+    <div className="m-2 mt-24 md:m-10 p-2 md:p-10 bg-white rounded-3xl">
       <Header category="page" title="Orders" />
       <GridComponent id="gridcomp" dataSource={ordersData} allowPaging allowSorting>
         <ColumnsDirective>
